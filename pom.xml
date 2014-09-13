@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.fiestacabin.dropwizard.quartz</groupId>
 	<artifactId>dropwizard-quartz</artifactId>
-	<version>0.6.2-SNAPSHOT</version>
+	<version>0.7.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
@@ -101,10 +101,10 @@
     </build>
 
 	<dependencies>
-        <dependency>
-            <groupId>com.fiestacabin.dropwizard.guice</groupId>
+         <dependency>
+            <groupId>com.hubspot.dropwizard</groupId>
             <artifactId>dropwizard-guice</artifactId>
-            <version>0.6.1</version>
+            <version>0.7.0.2</version>
         </dependency>
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
